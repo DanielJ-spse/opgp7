@@ -1,5 +1,7 @@
-def obvod(a, b):
-    return (2 * a) + (2 * b)
+from . import obdlznik
 
-def obsah(a, b):
-    return a * b
+def obvod(a):
+    return obdlznik.obvod(a, a)
+
+def obsah(a):
+    return obdlznik.obsah(a, a)
